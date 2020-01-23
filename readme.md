@@ -76,5 +76,10 @@ It can be easily extended with new datasets to test the performance of a trained
 
 # Reproducing our Experiments
 
-Further information will be provided shortly
+We split this into several parts.
 
+ 1. [Data creation for DQG](./reproducing/readme-datacreation-dqg.md)
+ 2. [Data creation for WS-TB](./reproducing/readme-datacreation-ws-tb.md)
+ 3. [Model training and evaluation](./reproducing/readme-training.md)
+
+We provide the data we used for model training on our [public fileserver](https://public.ukp.informatik.tu-darmstadt.de/emnlp2019-duplicate_question_detection/). 
