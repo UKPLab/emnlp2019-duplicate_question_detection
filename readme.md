@@ -83,3 +83,49 @@ We split this into several parts.
  3. [Model training and evaluation](./reproducing/readme-training.md)
 
 We provide the data we used for model training on our [public fileserver](https://public.ukp.informatik.tu-darmstadt.de/emnlp2019-duplicate_question_detection/). 
+
+
+## BERT Results on Individual Datasets
+
+In table 6 (https://www.aclweb.org/anthology/D19-1171.pdf), we report average results with BERT over five answer selection datasets. The individual accuracy scores per-dataset are as follows:
+
+ * Travel: 
+   * Supervised: 67.8
+   * WS-TB (1x): 62.3
+   * WS-TB (8x): 69.5
+ * Apple: 
+   * Supervised: 43.8
+   * WS-TB (1x): 42.8
+   * WS-TB (8x): 47.3
+ * Aviation: 
+   * Supervised: 62.6
+   * WS-TB (1x): 65.5
+   * WS-TB (8x): 64.9
+ * Academia: 
+   * Supervised: 53.9
+   * WS-TB (1x): 54.2
+   * WS-TB (8x): 58.7
+ * Cooking: 
+   * Supervised: 55.9
+   * WS-TB (1x): 52.8
+   * WS-TB (8x): 58.3
+
+The scores for different measures on the AskUbuntu dataset are as follows (averaged over five runs):
+
+ * P@1: 
+   * Supervised: 69.25
+   * WS-TB (1x): 61.08
+   * WS-TB (8x): 65.70
+ * P@5: 
+   * Supervised: 52.30
+   * WS-TB (1x): 47.25
+   * WS-TB (8x): 49.61
+ * MAP: 
+   * Supervised: 69.13
+   * WS-TB (1x): 61.81
+   * WS-TB (8x): 64.58
+ * MRR: 
+   * Supervised: 80.35
+   * WS-TB (1x): 74.53
+   * WS-TB (8x): 77.98
+  
